@@ -1,0 +1,71 @@
+
+body{
+	background: linear-gradient(
+	90deg,
+	rgb(69, 43, 237) 0%, 
+	rgb(15, 142, 164) 100%);
+}
+
+table{
+	margin-top: 50px;
+	text-align: center;
+	border: 10px;
+	border-color: solid black;
+	border-collapse: collapse;
+}
+
+#show td{
+	padding: 13px;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: rgb(199, 227, 208);
+}
+
+#btna td input{
+	margin-top: 5%;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	width: 80px;
+	height: 35px;
+	cursor: pointer;
+	outline: none;
+	background: linear-gradient(
+		180deg,
+		rgb(0, 255, 149) 0%,
+		rgb(2, 48, 255) 100%
+	);
+	color: #fff;
+	text-transform: capitalize;
+}
+
+#btna td input:hover{
+	background: linear-gradient(
+		180deg,
+		rgb(0, 200, 117) 0%,
+		rgb(0, 29, 158) 100%
+	);
+  }
+
+#show th{
+	padding: 13px;
+	border: 1px;
+	border-style: solid;
+	border-color: rgb(0, 0, 0);
+	background: linear-gradient( 90deg, rgb(67, 161, 237) 0%, rgb(239, 227, 244) 100% );
+}
+
+input{
+	width: 190px;
+    height: 23px;
+    border-bottom: 25px;
+    padding: 2px;
+	padding-left: 10px;
+    margin: 1px;
+}
+
+#ipt, h1{
+	color: white;
+} 
+
